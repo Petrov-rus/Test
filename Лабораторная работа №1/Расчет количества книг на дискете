@@ -1,0 +1,25 @@
+# TODO Найдите количество книг, которое можно разместить на дискете
+
+disk_size = 1.44 * 1024 * 1024  # Объем дискеты в байтах
+pages = 100
+lines_per_page = 50
+chars_per_line = 25
+bytes_per_char = 4
+
+# Объем одной книги
+book_size = pages * lines_per_page * chars_per_line * bytes_per_char
+
+# Количество книг, которые поместятся на дискету
+num_books = int(disk_size // book_size)
+
+
+print("Количество книг, помещающихся на дискету:", num_books)
+
+
+
+
+
+
+
+
+

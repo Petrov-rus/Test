@@ -1,0 +1,8 @@
+str_ = "sdkfjsdkjfnksjdnfkjsdnfkjsndfkjsndfkjsndfkjsnd"
+
+# TODO найдите и распечатайте количество уникальных символов в строке
+
+unique_characters = set(str_)
+unique_count = len(unique_characters)
+
+print(unique_count)

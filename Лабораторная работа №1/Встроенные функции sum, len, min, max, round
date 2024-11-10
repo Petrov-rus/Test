@@ -1,0 +1,21 @@
+  # TODO сформировать список цифр
+
+collection = [4, 9, 5, 1, 8, 4]
+print(collection)
+sum_collection = sum(collection)
+count_collection = len(collection)
+min_collection = min(collection)
+max_collection = max(collection)
+average = round(sum_collection/count_collection, 2)
+
+
+
+
+
+
+
+print("Сумма цифр",sum_collection)  # TODO сумма цифр
+print("Количество цифр",count_collection )  # TODO количество цифр
+print("Минимальная цифра",min_collection )  # TODO минимальная цифра
+print("Максимальная цифра",max_collection )  # TODO максимальная цифра
+print("Среднее арифметическое цифр",average)  # TODO среднее арифметическое цифр
